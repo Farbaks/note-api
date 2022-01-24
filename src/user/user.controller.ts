@@ -1,5 +1,4 @@
-import { Body, Controller, Get, Param, ParseIntPipe, Post, Put, Req, Request, UseGuards } from '@nestjs/common';
-import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
+import { Body, Controller, Get, Param, ParseIntPipe, Post, Put, Req } from '@nestjs/common';
 import { PublicRoute } from 'src/auth/public.decorator';
 import { ExistingUserDto } from './dto/existing-user.dto';
 import { NewUserDto } from './dto/new-user.dto';

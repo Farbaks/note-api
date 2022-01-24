@@ -1,6 +1,7 @@
 import { IsInt, IsNotEmpty } from "class-validator";
 
-export class FoldersDto {
+export class UpdateFolderDto {
+    
     @IsNotEmpty()
     name:string;
 }
